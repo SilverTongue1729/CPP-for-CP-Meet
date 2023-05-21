@@ -7,9 +7,20 @@ int main() {
   
   string s;
   cin >> s;
-  cout << "s = " << s << endl;
+  cout << "s = " << s << "\n";
   
+  cout << "s.size() = " << s.size() << "\n";
   
+  for (int i = 0; i < s.size(); i++) {
+    cout << s[i];
+  }
+  cout << "\n";
   
+  s += " is a string";
+  cout << "s = " << s << "\n";
+  
+  if (s == "string is a string")
+    cout << "s == \"string is a string\"\n";
+    
   return 0;
 }
