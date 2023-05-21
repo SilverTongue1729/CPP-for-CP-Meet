@@ -1,1 +1,5 @@
 .vscode
+# *.[!.]
+# **/*.[!.]
+# src/Running_a_CPP_File/*.[!.]
+src/Running_a_CPP_File/hello_world
